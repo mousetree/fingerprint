@@ -7,16 +7,16 @@ the following code allows you to:
 * Get summary of access logs
 * Open the door
 
+# Install
+
+	npm install
+
 # Usage
 
-	const device = new Device({
-		host: '192.168.1.1',
-		username: 'administrator',
-		password: 'password'
-	});
+Set the environment variables as follows:
 
-	device.getLogs()
-		.then(device.summariseLogs)
-		.then(console.log);
+	export FINGERPRINT_USER=administrator
+	export FINGERPRINT_PASSWORD=mypassword
+	export FINGERPRINT_HOST=http://192.168.1.100
 
-	device.openDoor()
+The `fingerprint.js` library can then be included (see `index.js` for an example)
