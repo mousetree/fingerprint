@@ -1,0 +1,36 @@
+{
+  "name": "fingerprint",
+  "version": "0.1.0",
+  "description": "Requests and Parses data from a Fingerprint reader",
+  "license": "MIT",
+  "repository": "mousetree/fingerprint.js",
+  "author": {
+    "name": "Adam Mausenbaum",
+    "email": "code@admm.io",
+    "url": "admm.io"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "F18/ID",
+    "Fingerprint"
+  ],
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "lodash": "^4.15.0",
+    "request-promise": "^4.1.1"
+  },
+  "devDependencies": {
+    "xo": "^0.16.0"
+  },
+  "xo": {
+    "esnext": true
+  }
+}
